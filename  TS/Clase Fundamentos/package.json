@@ -1,0 +1,20 @@
+{
+  "name": "clase-fundamentos",
+  "version": "1.0.0",
+  "description": "Este es un titulo de ejemplo",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "tsc -w",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3"
+  }
+}
